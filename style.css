@@ -1,0 +1,130 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  ul {
+    list-style: none;
+  }
+  body {
+    background: rgba(112, 1, 112, 0.753);
+  }
+  h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: capitalize;
+   
+    text-shadow:5px 5px 12px white; ;
+  }
+  #wavy{
+      font-family: monospace;
+      font-style: oblique;
+      text-decoration:wavy;
+      text-shadow: 5px 5px 5px white;
+  }
+  #stretch{
+      font-family: lucida console;
+      font-weight: bold;
+      text-transform: capitalize;
+      text-decoration: line-through;
+      text-shadow:5px 5px 12px white; ;
+      
+  }
+  .heading {
+    background: rgb(79, 27, 221);
+    text-align: center;
+    position: sticky;
+    top: 0%;
+    border-bottom: 1px rgb(193, 241, 20) solid;
+  }
+  .heading li {
+    display: inline-block;
+    margin: 10px 50px 10px 50px;
+  }
+  .heading ul {
+    text-align: center;
+  }
+  .nav-bar {
+    background-color: rgba(228, 209, 38, 0.199);
+    text-decoration: none;
+  }
+  .nav-bar a{
+      text-decoration: none;
+      color: black;
+      font-size: 1.2rem;
+  }
+  .media {
+      display: block;
+      
+      margin-top:4%;
+      background: rgba(109, 96, 96, 0.664);
+      /* outline-color: rgb(248, 11, 11);
+      outline-style: dotted; */
+      
+  }
+  .media-img{
+      /* outline-color: rgb(33, 165, 20);
+      outline-style: dotted; */
+      display:block;
+      text-align: center;
+      
+      /* grid-template-columns: repeat(1, 1em); */
+  }
+  .media-audio{
+      /* outline-color: rgb(33, 165, 20);
+      outline-style: dotted; */
+      display:block;
+      text-align: center;
+      
+      /* grid-template-columns: repeat(1, 1em); */
+  }
+  .media-img img{
+  /* display:block; */
+  
+  width: 50%;
+  height:400px;
+  margin-left:2%;
+  box-shadow: 0em 0em 2em;
+  
+  }
+  .media-audio img{
+      /* display:block; */
+      
+      width: 50%;
+      height:400px;
+      margin-left:2%;
+      box-shadow: 0em 0em 2em;
+      
+      }
+  
+  .main-body {
+      font-size:2rem;
+      text-align: center;
+      color: whitesmoke;
+      font-style: italic;
+       /* outline-color: red;
+    outline-style: dotted; */
+    margin-bottom:100px;
+  }
+  .main-body img{
+      width:100%;
+  }
+  #footer {
+    color: rgb(253, 248, 248);
+    background: rgb(79, 27, 221);
+    display: block;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    
+    /* outline-color: red;
+    outline-style: dotted; */
+  }
+  .footer-decor1 {
+    display: block;
+    width: fit-content;
+    background-color: rgba(228, 209, 38, 0.438);
+    /* outline-color: red;
+    outline-style: dotted; */
+  }
+  
